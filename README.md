@@ -1,4 +1,4 @@
-# Nós, Dre e Lena 💜
+ Dre e Lena 💜
 
 App de aniversário personalizado com layout inspirado no Spotify, feito em Flutter.
 
