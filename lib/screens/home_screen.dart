@@ -6,7 +6,6 @@ import '../theme/app_theme.dart';
 import '../widgets/track_art.dart';
 import '../widgets/track_card.dart';
 import '../widgets/video_feed_item.dart';
-import '../widgets/letter_reveal.dart';
 import '../widgets/floating_particles.dart';
 import 'now_playing_screen.dart';
 import 'playlist_screen.dart';
@@ -205,18 +204,6 @@ class _HomeScreenState extends State<HomeScreen> {
             child: VideoFeedItem(
               asset: videoFeedAssets[i],
               phrase: videoFeedPhrases[i % videoFeedPhrases.length],
-              height: screenHeight * 0.72,
-              scrollController: _scrollController,
-            ),
-          );
-        }),
-
-        Builder(builder: (context) {
-          final screenHeight = MediaQuery.of(context).size.height;
-          return Padding(
-            padding: const EdgeInsets.fromLTRB(16, 0, 16, 56),
-            child: LetterReveal(
-              text: hiddenLetter,
               height: screenHeight * 0.72,
               scrollController: _scrollController,
             ),

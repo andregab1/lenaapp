@@ -33,7 +33,6 @@ O arquivo fica em `build/app/outputs/flutter-apk/app-release.apk`. Transfira ess
 Tudo fica em **`lib/data/content.dart`** — é o único arquivo que você provavelmente vai querer mexer:
 
 - `relationshipStartDate` — data que aparece no contador "há X dias juntos" no topo da Home. **Troque pela data de vocês.**
-- `hiddenLetter` — mensagem que aparece ao segurar o dedo no título "Nós, Dre e Lena" na Home. **Troque pelo seu texto de verdade.**
 - `songs` — lista das 10 músicas: título, artista, duração, arquivo de áudio, foto de capa, legenda (`caption`, aparece embaixo do nome no "Tocando agora") e cor de destaque (`dominantColor`, usada pra tingir o fundo daquela música).
 - Pra trocar uma foto: coloque o arquivo em `assets/images/` e referencie o caminho em `coverAsset`.
 - Pra trocar/adicionar uma música: coloque o mp3 em `assets/audio/`, declare o caminho no `pubspec.yaml` (seção `flutter: assets:`) e adicione uma entrada em `songs`.
