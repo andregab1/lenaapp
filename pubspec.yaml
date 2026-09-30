@@ -1,0 +1,60 @@
+name: nos_e_lena
+description: "App de aniversário personalizado, com layout inspirado no Spotify."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  audioplayers: ^6.0.0
+  video_player: ^2.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.1
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#000000"
+  image: assets/splash/splash.png
+  android_12:
+    color: "#000000"
+    image: assets/splash/splash.png
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/photo1.jpg
+    - assets/images/photo2.jpg
+    - assets/images/photo3.jpg
+    - assets/images/photo4.jpg
+    - assets/images/photo5.jpg
+    - assets/images/photo6.jpg
+    - assets/images/photo7.jpg
+    - assets/audio/faixa_amarela.mp3
+    - assets/audio/lisboa.mp3
+    - assets/audio/foi_assim.mp3
+    - assets/audio/ultima_vez.mp3
+    - assets/audio/cintura_ignorante.mp3
+    - assets/audio/quando_bate_aquela_saudade.mp3
+    - assets/audio/quase_que_falei_te_amo.mp3
+    - assets/audio/cristal.mp3
+    - assets/audio/so_nos_dois.mp3
+    - assets/audio/dream.mp3
+    - assets/videos/momento.mp4
+    - assets/videos/feed1.mp4
+    - assets/videos/feed2.mp4
+    - assets/videos/feed4.mp4
+    - assets/videos/feed5.mp4
